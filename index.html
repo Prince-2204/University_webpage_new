@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact us</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>India's Top 50 University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Laboriosam modi eos omnis perspiciatis dolorum, unde reprehenderit ab labore qui ipsum eius quas iure dignissimos nesciunt veritatis maxime inventore dolore id.</p>
+            <a href="" class="hero-btn">Visit us to Know More.</a>
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sint!</p>
+        <div class="row">
+            <div class="course-col">
+               <h3>Intermediate</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nesciunt ipsa ipsam labore nam quis! Illum recusandae, sapiente, numquam incidunt at quod quo molestiae deserunt eius doloremque qui ducimus dignissimos voluptatibus ex quia nulla?</p> 
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nesciunt ipsa ipsam labore nam quis! Illum recusandae, sapiente, numquam incidunt at quod quo molestiae deserunt eius doloremque qui ducimus dignissimos voluptatibus ex quia nulla?</p> 
+             </div>
+
+             <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nesciunt ipsa ipsam labore nam quis! Illum recusandae, sapiente, numquam incidunt at quod quo molestiae deserunt eius doloremque qui ducimus dignissimos voluptatibus ex quia nulla?</p> 
+             </div>
+        </div>
+    </section>
+
+    <section class="campus">
+
+        <h1>Our Campus</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, obcaecati.</p>
+        <div class="row campus-row">
+            <div class="campus-col">
+                <img src="Images/london.png" alt="">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+
+                <div class="campus-col">
+                    <img src="Images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>New York</h3>
+                    </div>
+
+                    <div class="campus-col">
+                        <img src="Images/washington.png" alt="">
+                        <div class="layer">
+                            <h3>Washington</h3>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="row">
+            <div class="facilities-col">
+                
+                <img src="Images/library.png" alt="">
+                <h3>Best Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laboriosam.</p>
+            </div>
+
+            <div class="facilities-col">
+                
+                <img src="Images/basketball.png" alt="">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laboriosam.</p>
+            </div>
+
+            <div class="facilities-col">
+                
+                <img src="Images/cafeteria.png" alt="">
+                <h3>Hygenic Cafeteria</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, laboriosam.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+
+        navLinks.style.right = "0";
+
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
